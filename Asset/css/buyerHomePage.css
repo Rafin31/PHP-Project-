@@ -1,0 +1,58 @@
+.content {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Photos/background.jpg);
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.1rem;
+    color: white;
+    padding: 5% 5% 10% 5%;
+}
+
+.content #customer {
+    line-height: 100px;
+}
+
+.content p .cursor {
+    display: inline-block;
+    background-color: white;
+    width: 3px;
+    animation: blink 0.8s infinite;
+}
+
+.content p .Animation {
+    animation: none;
+}
+
+@keyframes blink {
+    0% {
+        background-color: white;
+    }
+    49% {
+        background-color: white;
+    }
+    50% {
+        background-color: transparent;
+    }
+    99% {
+        background-color: transparent;
+    }
+    100% {
+        background-color: white;
+    }
+}
+
+.content p {
+    font-weight: 1000;
+    letter-spacing: 0.3rem;
+    color: #e15f41;
+}
+
+.content p span {
+    color: yellow;
+}

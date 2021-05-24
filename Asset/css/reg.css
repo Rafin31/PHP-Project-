@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.registrationContainer {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: #bdc3c7;
+}
+
+.registrationContainer .box {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: 85vh;
+    background-color: #ecf0f1;
+}
+
+.registrationContainer .box .top {
+    width: 100%;
+    text-align: center;
+}
+
+.registrationContainer .box .top img {
+    width: 40%;
+    margin: -15px 5px 20px 5px;
+}
+
+.registrationContainer .box .bottom {
+    position: absolute;
+    width: 100%;
+    padding: 0px 20px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.registrationContainer .box .bottom input {
+    border: 1px solid black;
+    display: block;
+    margin: 20px 5px 20px 5px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.registrationContainer .box .bottom input[type=submit] {
+    background-color: #2ecc71;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 20px 2px;
+    cursor: pointer;
+}
+
+.registrationContainer .box .bottom button a {
+    text-decoration: none;
+    color: white;
+}
+
+.registrationContainer .box .bottom p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: x-small;
+}
+
+.registrationContainer .box .bottom button {
+    background-color: #2ecc71;
+    border: none;
+    color: white;
+    width: 100%;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.registrationContainer .box .bottom select {
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    border: 1px solid black;
+    background-color: white;
+}

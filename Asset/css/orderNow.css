@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+.form__group {
+    position: relative;
+    padding: 15px 0 0;
+    margin-top: 10px;
+}
+
+.form__group {
+    width: 50vw;
+    display: block;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_field {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #d2d2d2;
+    outline: 0;
+    font-size: 16px;
+    color: #303952;
+    padding: 7px 0;
+    font-weight: 1000;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+
+.form_field::placeholder {
+    color: transparent;
+}
+
+.form_field:placeholder-shown~.form_label {
+    font-size: 16px;
+    cursor: text;
+    top: 20px;
+    font-weight: 1000;
+    letter-spacing: 0.5rem;
+}
+
+label,
+.form_field:focus~.form_label {
+    position: absolute;
+    top: 0;
+    transition: 0.2s;
+    font-size: 1rem;
+    display: block;
+    color: #303952;
+    font-weight: 1000;
+}
+
+.form_field:focus~.form_label {
+    color: #2ecc71;
+}
+
+.form_field:focus {
+    padding-bottom: 6px;
+    border-bottom: 2px solid #2ecc71;
+}
+
+input[type=submit],
+input[type=button] {
+    background-color: #2ecc71;
+    border: none;
+    color: white;
+    border-radius: 10%;
+    padding: 8px 18px;
+    text-decoration: none;
+    margin: 8px 7px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+input[type=button]:hover {
+    opacity: 0.8;
+}
+
+.content .foods {
+    padding: 50px;
+    height: auto;
+    width: 100%;
+}
+
+table input[type=submit] {
+    width: 100%;
+}
+
+table p {
+    font-size: smaller;
+    color: brown;
+}
+
+table td {
+    padding: 20px;
+}
+
+table img {
+    max-width: 100%;
+}
