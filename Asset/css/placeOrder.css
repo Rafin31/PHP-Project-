@@ -1,0 +1,63 @@
+.content input {
+    border: 1px solid black;
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 1200;
+    margin: 20px 5px 20px 5px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.product {
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.calculation button,
+input[type=submit] {
+    background-color: #2ecc71;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 20px 2px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.calculation button:hover {
+    opacity: 0.8;
+}
+
+.calculation input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+table td {
+    margin: 50px;
+}
+
+.calculation {
+    background-color: #e74c3c;
+    color: white;
+    height: auto;
+    width: 60%;
+    font-size: 1.5rem;
+    font-weight: 1200;
+    padding: 50px;
+    margin-left: 22%;
+}
+
+#checkout {
+    width: 60%;
+    height: auto;
+    background-color: #bdc3c7;
+    font-size: 1.5rem;
+    font-weight: 1200;
+    padding: 50px;
+    margin-left: 22%;
+}
